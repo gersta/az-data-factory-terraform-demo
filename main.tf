@@ -65,7 +65,7 @@ resource "azurerm_data_factory" "terraform-demo-factory" {
   resource_group_name = azurerm_resource_group.terraform-demo.name
   github_configuration {
     account_name = "gersta"
-    branch_name = "adf_publish"
+    branch_name = "main"
     git_url = "https://github.com/gersta/azure-data-factory-etl-demo"
     repository_name = "azure-data-factory-etl-demo"
     root_folder = "/"
